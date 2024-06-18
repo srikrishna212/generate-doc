@@ -1,13 +1,13 @@
-# Documentation App
+# Sample Documentation Application
 
-This project is a documentation application built using Angular and NgDoc. It provides a streamlined platform for generating and managing documentation for various projects.
+This project is a sample documentation application built using Angular and NgDoc. It demonstrates how to set up a documentation site with Angular and manage content using NgDoc.
 
 ## Features
 
-- **Dynamic Documentation**: Easily create and manage documentation pages with NgDoc.
+- **Dynamic Documentation Pages**: Easily create and manage documentation pages with NgDoc.
 - **Responsive Design**: The app is designed to be mobile-friendly and responsive.
-- **API Integration**: Integrates with external APIs for real-time data and dynamic content.
 - **Customizable**: Easily customizable to fit the needs of different projects.
+- **Integration with Angular**: Seamless integration with Angular's ecosystem.
 
 ## Getting Started
 
@@ -20,8 +20,8 @@ This project is a documentation application built using Angular and NgDoc. It pr
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/documentation-app.git
-    cd documentation-app
+    git clone https://github.com/srikrishna212/generate-doc.git
+    cd generate-doc
     ```
 
 2. **Install Dependencies**:
@@ -49,7 +49,7 @@ This project is a documentation application built using Angular and NgDoc. It pr
     ```json
     {
       "projects": {
-        "documentation-app": {
+        "sample-docs-app": {
           "architect": {
             "build-docs": {
               "builder": "@ng-doc/builder:build",
@@ -77,7 +77,7 @@ This project is a documentation application built using Angular and NgDoc. It pr
 
 1. **Build the Documentation**:
     ```sh
-    ng run documentation-app:build-docs
+    ng run sample-docs-app:build-docs
     ```
 
 2. **Serve the Documentation**:
